@@ -1,0 +1,10 @@
+div {
+    font-size: 40px;
+    color: #0abab5;
+}
+
+button {
+    padding: 20px;
+    border-color: 1px solid black;
+    border-radius: 0;
+}

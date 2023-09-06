@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    background: #0a0909;
+}
+
+.ball-container {
+    width: 600px;
+    height: 600px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* 
+.ball-container::after {
+    position: absolute;
+    content: '';
+    width: 800px;
+    height: 800px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 255, 0.182);
+} */
+
+.ball {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/eb/Magic_eight_ball.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    transition: .5s all;
+    position: relative;
+}
+
+.ball:hover {
+    transform: translate(5px, 5px);
+}
+
+.answer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.shake {
+    animation: shake-animation 0.5s linear infinite;
+}
+
+@keyframes shake-animation {
+    0% {
+        transform: translate(0);
+    }
+
+    50% {
+        transform: translate(-50px, -50px);
+    }
+
+    100% {
+        transform: translate(0);
+    }
+}
