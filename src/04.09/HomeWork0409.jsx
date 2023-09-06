@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './HomeWork.css';
 
 const HomeWork0409 = ({ answer }) => {
-    const [text, setText] = useState('');
+    const [text, setText] = useState('Ожидайте...');
     const [isShaking, setIsShaking] = useState(false);
 
     const randomIndex = () => {

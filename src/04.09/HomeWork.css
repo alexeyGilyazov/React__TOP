@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico:regular);
+
 * {
     padding: 0;
     margin: 0;
@@ -7,7 +9,15 @@
 .wrapper {
     height: 100vh;
     width: 100%;
-    background: #0a0909;
+    background-image: repeating-linear-gradient(-45deg, black, rgb(88, 88, 88) 1rem, #2a2a2a 1rem, #1a1a1a 2rem);
+    background-size: 200% 200%;
+    animation: gradient 10s linear infinite;
+}
+
+@keyframes gradient {
+    100% {
+        background-position: 100% 100%;
+    }
 }
 
 .ball-container {
@@ -53,6 +63,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    font-family: 'Pacifico', cursive;
+    max-width: 19%;
 }
 
 .shake {
