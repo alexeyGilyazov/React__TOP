@@ -1,9 +1,9 @@
+// Прокидывание PROPS в компоненты 
 import React from 'react'
 import './style.css'
 
-
-export default function Lesson20() {
-
+export default function Lesson21() {
+  
   const currentDate = new Date().toLocaleDateString()
   const good = 'Macbook'
 

@@ -1,11 +1,10 @@
 import "../src/style/index.css";
-import HomeWork0409 from "./04.09/HomeWork0409";
-import { RandomText } from "./data/RandomText";
+import Lesson21 from "./UDEMY/Lesson21/Lesson21";
 
 function App() {
   return (
     <div className="App">
-      <HomeWork0409 answer={RandomText} />
+      <Lesson21 />     
     </div>
   );
 }
