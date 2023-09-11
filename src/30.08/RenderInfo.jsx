@@ -1,5 +1,5 @@
 // Домашнее задание от 30.08 - Знакомство с Реакт
-import { createFactory } from 'react'
+// import { createFactory } from 'react'
 import './style.css'
 export const RenderInfo = () => {
 
