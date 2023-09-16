@@ -4,9 +4,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
 }
 
 .wrapper {
+    text-align: center;
     height: 100vh;
     width: 100%;
     background-image: repeating-linear-gradient(-45deg, black, rgb(88, 88, 88) 1rem, #2a2a2a 1rem, #1a1a1a 2rem);
