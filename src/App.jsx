@@ -1,12 +1,11 @@
-import React from 'react';
+import React from "react";
+import Home from "./17.09_dopLesson/Home";
 
 
-const App = () => {
+export default function App() {
   return (
-    <div>
-
-    </div>
+    <>
+      <Home />
+    </>
   );
 }
-
-export default App;
