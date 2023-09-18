@@ -4,9 +4,45 @@ nav {
     gap: 40px;
 }
 
+li {
+    list-style: none;
+}
+
 button {
     margin-top: 100px auto;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.paginationList {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.paginationList li {
+    list-style-type: none;
+    list-style: none;
+    display: block;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(0, 255, 255, 0.594);
+    transition: .5s all;
+    cursor: pointer;
+}
+
+.paginationList li:hover {
+    background-color: rgba(0, 13, 13, 0.738);
+    color: #fff;
+}
+
+.active {
+    background-color: greenyellow !important;
+}
+
+.container {
+    overflow-y: scroll;
+    height: 200px;
 }
